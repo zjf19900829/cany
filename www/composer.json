@@ -1,0 +1,19 @@
+{
+  "require": {
+    "aliyuncs/oss-sdk-php": "~2.0"
+  },
+  "autoload": {
+    "psr-0": {
+      "": "src/"
+    },
+    "classmap": [
+      "model",
+      "libs",
+      "modules/rest/controllers"
+    ],
+    "files": [
+      "libs/functions.php",
+      "cfgs/app.php"
+    ]
+  }
+}
